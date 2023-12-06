@@ -38,6 +38,7 @@ void printColors(int guess[], int comb[]) {
             reds[redCount] = 'C';
             indexRed[redCount] = i;
             redCount++;
+            numOfEach[comb[i]]--;
         }
     }
     reds[redCount] = '\0';
