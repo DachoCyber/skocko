@@ -89,8 +89,6 @@ int main() {
 
     printf("Welcome to the Skocko Game!\n");
 
-    comb[0] = 3, comb[1] = 1, comb[2] = 2, comb[3] = 3;
-
     do {
         guessComb(guess);
         printColors(guess, comb);
